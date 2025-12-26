@@ -8,6 +8,9 @@ website:
     left:
       - href: index.qmd
         text: Sobre el proyecto
+      - href: integrantes.qmd
+        text: Integrantes
+        
     right:
       - icon: github
         href: https://github.com/anabellanilom/PartidismoMinisterialAL 
