@@ -11,7 +11,7 @@ website:
       - href: integrantes.qmd
         text: Integrantes
       - href: cronograma.qmd
-        text: Cronograma
+        text: cronograma
         
     right:
       - icon: github
