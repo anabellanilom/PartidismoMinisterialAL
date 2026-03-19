@@ -1,0 +1,118 @@
+---
+title: "Cronograma"
+editor: visual
+---
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(tidyverse)
+library(ggplot2)
+
+colores_fase <- c(
+  "Fase 1 · Relevamiento"         = "#534AB7",
+  "Fase 2 · Entrevistas"          = "#0F6E56",
+  "Fase 3 · Análisis nacional"    = "#185FA5",
+  "Fase 4 · Análisis comparado"   = "#993C1D",
+  "Fase 5 · Redacción y difusión" = "#993556"
+)
+
+meses <- c("Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic","Ene")
+
+actividades <- tribble(
+  ~fase,                             ~actividad,                                  ~inicio, ~fin,
+  "Fase 1 · Relevamiento",           "Decretos de designación",                   1, 2,
+  "Fase 1 · Relevamiento",           "Bases biográficas y repositorios",          1, 2,
+  "Fase 1 · Relevamiento",           "Fuentes periodísticas",                     1, 2,
+  "Fase 1 · Relevamiento",           "Literatura académica contextual",           1, 4,
+  "Fase 1 · Relevamiento",           "Fichas individuales por ministro/a",        2, 4,
+  "Fase 1 · Relevamiento",           "Codificación inicial (Camerlo & Castaldo)", 2, 4,
+  "Fase 2 · Entrevistas",            "Guía de entrevista homogénea",              3, 4,
+  "Fase 2 · Entrevistas",            "Selección de informantes clave",            3, 4,
+  "Fase 2 · Entrevistas",            "Gestión de contactos y consentimientos",    3, 4,
+  "Fase 2 · Entrevistas",            "Realización de entrevistas",                4, 5,
+  "Fase 2 · Entrevistas",            "Transcripción y análisis de contenido",     4, 6,
+  "Fase 3 · Análisis nacional",      "Validación cruzada de codificaciones",      5, 8,
+  "Fase 3 · Análisis nacional",      "Indicadores nacionales de partidismo",      6, 7,
+  "Fase 3 · Análisis nacional",      "Identificación de patrones intra-país",     6, 7,
+  "Fase 3 · Análisis nacional",      "Informes parciales nacionales",             7, 8,
+  "Fase 4 · Análisis comparado",     "Matriz comparativa entre países",           7, 7,
+  "Fase 4 · Análisis comparado",     "Similitudes y diferencias entre casos",     7, 8,
+  "Fase 4 · Análisis comparado",     "Revisión de hipótesis explicativas",        7, 8,
+  "Fase 4 · Análisis comparado",     "Informe del análisis comparado",            8, 10,
+  "Fase 5 · Redacción y difusión",   "Informe final del proyecto",               10, 12,
+  "Fase 5 · Redacción y difusión",   "Redacción de artículos científicos",        9, 12,
+  "Fase 5 · Redacción y difusión",   "Ponencias para congresos",                 10, 12,
+  "Fase 5 · Redacción y difusión",   "Revisión y envío a revistas indexadas",    10, 12
+)
+
+actividades <- actividades |>
+  mutate(
+    actividad = factor(actividad, levels = rev(actividad)),
+    fase      = factor(fase, levels = names(colores_fase))
+  )
+
+ggplot(actividades) +
+  geom_segment(
+    aes(x = inicio - 0.5, xend = fin + 0.5,
+        y = actividad,    yend = actividad,
+        color = fase),
+    linewidth = 5.5,
+    lineend   = "round"
+  ) +
+  geom_vline(
+    xintercept = 7,
+    linetype   = "dashed",
+    color      = "#BA7517",
+    linewidth  = 0.7
+  ) +
+  annotate(
+    "label",
+    x = 7, y = 1.2,
+    label      = "Hito 6 meses\nBorrador publicación (Ago)",
+    size       = 2.8,
+    color      = "#854F0B",
+    fill       = "#FAEEDA",
+    label.size = 0.3,
+    label.r    = unit(4, "pt"),
+    fontface   = "bold",
+    hjust      = 0.5,
+    vjust      = 0
+  ) +
+  geom_hline(
+    yintercept = c(6.5, 11.5, 15.5, 19.5),
+    color      = "grey85",
+    linewidth  = 0.3
+  ) +
+  scale_x_continuous(
+    breaks = 1:12,
+    labels = meses,
+    expand = expansion(add = 0.6)
+  ) +
+  scale_color_manual(values = colores_fase, name = NULL) +
+  labs(
+    title    = "Cronograma · Partidismo ministerial en América Latina",
+    subtitle = "UCALP · Argentina, Brasil, Chile y Uruguay · 2025–2026 · 3 hs semanales por integrante",
+    x        = NULL,
+    y        = NULL,
+    caption  = "Equipo: Dra. Molina (dir.) · Lic. Cereijo (co-dir.) · Bellocq · Lorenzo · Carrizo"
+  ) +
+  theme_minimal(base_size = 11) +
+  theme(
+    plot.title         = element_text(face = "bold", size = 13, margin = margin(b = 4)),
+    plot.subtitle      = element_text(color = "grey40", size = 9.5, margin = margin(b = 12)),
+    plot.caption       = element_text(color = "grey50", size = 8, hjust = 0, margin = margin(t = 10)),
+    axis.text.x        = element_text(size = 9.5, color = "grey30"),
+    axis.text.y        = element_text(size = 8.5, color = "grey20", hjust = 1),
+    panel.grid.major.x = element_line(color = "grey92", linewidth = 0.4),
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor   = element_blank(),
+    legend.position    = "top",
+    legend.text        = element_text(size = 8.5),
+    legend.key.height  = unit(8, "pt"),
+    legend.key.width   = unit(18, "pt"),
+    plot.margin        = margin(10, 20, 10, 10)
+  )
+
+```

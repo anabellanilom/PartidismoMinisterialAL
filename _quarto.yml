@@ -10,6 +10,8 @@ website:
         text: Sobre el proyecto
       - href: integrantes.qmd
         text: Integrantes
+      - href: Cronograma.qmd
+        text: Cronograma
         
     right:
       - icon: github
