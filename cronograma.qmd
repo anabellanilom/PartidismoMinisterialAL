@@ -1,5 +1,5 @@
 ---
-title: "Cronograma"
+title: "cronograma"
 editor: visual
 ---
 ```{r}
