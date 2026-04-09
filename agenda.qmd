@@ -3,7 +3,7 @@ title: "Agenda"
 editor: visual
 ---
 
-Esta página reúne las actividades previstas del equipo de investigación: los eventos académicos en los que participamos y la dinámica de trabajo semanal.
+Esta sección reúne las actividades previstas del equipo de investigación: los eventos académicos en los que participamos y la dinámica de trabajo semanal.
 
 ## Reuniones del equipo
 

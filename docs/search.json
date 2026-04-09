@@ -32,7 +32,7 @@
     "href": "agenda.html",
     "title": "Agenda",
     "section": "",
-    "text": "Esta página reúne las actividades previstas del equipo de investigación: los eventos académicos en los que participamos y la dinámica de trabajo semanal."
+    "text": "Esta sección reúne las actividades previstas del equipo de investigación: los eventos académicos en los que participamos y la dinámica de trabajo semanal."
   },
   {
     "objectID": "agenda.html#reuniones-del-equipo",
@@ -47,5 +47,68 @@
     "title": "Agenda",
     "section": "Congresos y eventos académicos",
     "text": "Congresos y eventos académicos\n\nJornadas de Ciencia Política (JCP) – UBA\nFecha: 25 al 28 de agosto de 2026\nLugar: Facultad de Ciencias Sociales, UBA – Buenos Aires, Argentina\nModalidad: Presencial\nEl equipo prevé presentar avances de la investigación en el área de Política Latinoamericana y Política Comparada.\nMás información: jornadascpuba@sociales.uba.ar\nSitio oficial: cienciapolitica.sociales.uba.ar\n\n\n\nXIII Congreso Latinoamericano de Ciencia Política (ALACIP 2026)\nFecha: 21 al 24 de julio de 2026\nLugar: Universidad Torcuato Di Tella – Buenos Aires, Argentina\nModalidad: Presencial\nLema: Cuatro décadas de democracia en América Latina. Entre el fortalecimiento y la erosión en un mundo incierto\nEl Congreso ALACIP es el principal encuentro de ciencia política a nivel latinoamericano, organizado por la Asociación Latinoamericana de Ciencia Política (ALACIP) y la Sociedad Argentina de Análisis Político (SAAP). El equipo tiene previsto presentar resultados de investigación en el marco de este evento.\nSitio oficial: congreso-alacip.saap.org.ar"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Partidismo Ministerial en América Latina",
+    "section": "",
+    "text": "Este proyecto analiza comparativamente los niveles de partidismo ministerial en los gabinetes presidenciales de Argentina, Chile, Perú y Uruguay entre 2000 y 2025.\nPartimos de una pregunta central: ¿cómo influye el grado de institucionalización partidaria en la composición de los gabinetes presidenciales? Para responderla, adoptamos la tipología desarrollada por Camerlo y Castaldo (2023), que supera la clásica distinción entre ministros “partidistas” y “no partidistas” y permite capturar vínculos más matizados entre los ministros y sus organizaciones políticas."
+  },
+  {
+    "objectID": "index.html#sobre-el-proyecto",
+    "href": "index.html#sobre-el-proyecto",
+    "title": "Partidismo Ministerial en América Latina",
+    "section": "",
+    "text": "Este proyecto analiza comparativamente los niveles de partidismo ministerial en los gabinetes presidenciales de Argentina, Chile, Perú y Uruguay entre 2000 y 2025.\nPartimos de una pregunta central: ¿cómo influye el grado de institucionalización partidaria en la composición de los gabinetes presidenciales? Para responderla, adoptamos la tipología desarrollada por Camerlo y Castaldo (2023), que supera la clásica distinción entre ministros “partidistas” y “no partidistas” y permite capturar vínculos más matizados entre los ministros y sus organizaciones políticas."
+  },
+  {
+    "objectID": "index.html#por-qué-importa",
+    "href": "index.html#por-qué-importa",
+    "title": "Partidismo Ministerial en América Latina",
+    "section": "¿Por qué importa?",
+    "text": "¿Por qué importa?\nLos ministros no son solo agentes del presidente: son también portadores de trayectorias, lealtades e identidades partidarias. Estudiar cómo se conforman los gabinetes —quiénes son designados, con qué perfil y bajo qué lógicas— permite entender mejor cómo se ejerce el poder ejecutivo, cómo se negocian las coaliciones y cómo se articula la relación entre partidos y gobierno en los sistemas presidenciales latinoamericanos."
+  },
+  {
+    "objectID": "index.html#los-gabinetes-que-estudiamos",
+    "href": "index.html#los-gabinetes-que-estudiamos",
+    "title": "Partidismo Ministerial en América Latina",
+    "section": "Los gabinetes que estudiamos",
+    "text": "Los gabinetes que estudiamos\n\n\n\n\n\n\nGabinete de Yamandú Orsi – Uruguay (2025–2030)\n\n\n\n\n\n\n\nGabinete de José Antonio Kast – Chile (2026)\n\n\n\n\n\n\n\n\n\nGabinete de Javier Milei – Argentina\n\n\n\n\n\n\n\nGabinete de José Balcázar – Perú"
+  },
+  {
+    "objectID": "index.html#hipótesis",
+    "href": "index.html#hipótesis",
+    "title": "Partidismo Ministerial en América Latina",
+    "section": "Hipótesis",
+    "text": "Hipótesis\n\nEn contextos de baja institucionalización partidaria, los presidentes tienden a conformar gabinetes con alta proporción de ministros de vinculación partidaria no estándar, como forma de maximizar el control ejecutivo y minimizar los riesgos de agencia."
+  },
+  {
+    "objectID": "index.html#objetivos",
+    "href": "index.html#objetivos",
+    "title": "Partidismo Ministerial en América Latina",
+    "section": "Objetivos",
+    "text": "Objetivos\nObjetivo general\nAnalizar los patrones de partidismo ministerial en los gabinetes presidenciales del Cono Sur, identificando regularidades, variaciones y los factores que las explican.\nObjetivos específicos\n\nIdentificar y clasificar los niveles de partidismo ministerial en Argentina, Brasil, Chile y Uruguay entre 2000 y 2025.\nAnalizar los factores institucionales —reglas de formación de gobierno, tipo de coaliciones, institucionalización partidaria— que influyen en la composición de los gabinetes.\nComparar patrones de selección ministerial entre los cuatro países, considerando las estrategias presidenciales de control, equilibrio y representación."
+  },
+  {
+    "objectID": "index.html#metodología",
+    "href": "index.html#metodología",
+    "title": "Partidismo Ministerial en América Latina",
+    "section": "Metodología",
+    "text": "Metodología\nEl proyecto combina análisis documental, construcción de bases de datos biográficas y entrevistas semiestructuradas a expertos académicos y exfuncionarios de los cuatro países. La codificación de los ministros sigue la tipología de Camerlo y Castaldo (2023), que clasifica el vínculo partidario según criterios de jerarquía, consolidación y vinculación efectiva."
+  },
+  {
+    "objectID": "index.html#resultados-esperados",
+    "href": "index.html#resultados-esperados",
+    "title": "Partidismo Ministerial en América Latina",
+    "section": "Resultados esperados",
+    "text": "Resultados esperados\n\nUna base de datos codificada de ministros de los cuatro países con clasificación de su nivel de afiliación partidaria.\nUn análisis comparado que explique cómo las reglas institucionales, la fortaleza partidaria y los estilos de liderazgo inciden en los perfiles seleccionados.\nUna tipología validada empíricamente con potencial de replicación en otros contextos de baja institucionalización.\nPublicación de artículos científicos y presentación de resultados en congresos nacionales e internacionales."
+  },
+  {
+    "objectID": "index.html#instituciones",
+    "href": "index.html#instituciones",
+    "title": "Partidismo Ministerial en América Latina",
+    "section": "Instituciones",
+    "text": "Instituciones\nEste proyecto es llevado adelante en el marco de la Universidad Católica de La Plata (UCALP), Sede Bernal.\nProyecto de investigación 2025–2026."
   }
 ]
