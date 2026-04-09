@@ -5,6 +5,24 @@ editor: visual
 
 Esta página reúne las actividades previstas del equipo de investigación: los eventos académicos en los que participamos y la dinámica de trabajo semanal.
 
+## Reuniones del equipo
+
+El equipo se reúne **una vez por semana**, en un día fijo, para hacer seguimiento del avance de la investigación, discutir lecturas y coordinar tareas.
+
+::: {style="text-align: center; margin: 1.5rem 0;"}
+![](images/reunion-equipo.png.png){fig-align="center"}
+:::
+
+Las reuniones tienen una duración aproximada de dos horas y combinan distintos tipos de actividades según la etapa del proyecto:
+
+-   **Discusión bibliográfica:** lectura compartida y debate de textos relevantes para el marco teórico y el estado del arte.
+-   **Seguimiento de datos:** revisión del estado de la base de datos, validación de fuentes y resolución de dudas de codificación.
+-   **Avances individuales:** cada integrante presenta brevemente el trabajo realizado durante la semana.
+-   **Planificación:** definición de tareas y plazos para la semana siguiente.
+
+Las reuniones son de carácter virtual/híbrido, lo que permite la participación de todos los integrantes independientemente de su ubicación.
+
+
 ------------------------------------------------------------------------
 
 ## Congresos y eventos académicos
@@ -35,19 +53,3 @@ Sitio oficial: [congreso-alacip.saap.org.ar](https://congreso-alacip.saap.org.ar
 
 ------------------------------------------------------------------------
 
-## Reuniones del equipo
-
-El equipo se reúne **una vez por semana**, en un día fijo, para hacer seguimiento del avance de la investigación, discutir lecturas y coordinar tareas.
-
-::: {style="text-align: center; margin: 1.5rem 0;"}
-![](images/reunion-equipo.png.png){fig-align="center"}
-:::
-
-Las reuniones tienen una duración aproximada de dos horas y combinan distintos tipos de actividades según la etapa del proyecto:
-
--   **Discusión bibliográfica:** lectura compartida y debate de textos relevantes para el marco teórico y el estado del arte.
--   **Seguimiento de datos:** revisión del estado de la base de datos, validación de fuentes y resolución de dudas de codificación.
--   **Avances individuales:** cada integrante presenta brevemente el trabajo realizado durante la semana.
--   **Planificación:** definición de tareas y plazos para la semana siguiente.
-
-Las reuniones son de carácter virtual/híbrido, lo que permite la participación de todos los integrantes independientemente de su ubicación.
